@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#EEAADD"
+            android:gravity="center"
+            android:text="no data"
+            android:visibility="gone" />
+
+        <com.hh.oil.widget.RefreshLayoutForRecycler
+            android:id="@+id/mSwipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.hh.oil.widget.familiarRecyclerview.FamiliarRecyclerView
+                android:id="@+id/mRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                app:frv_dividerHeight="1dp"
+                app:frv_emptyView="@id/tv_empty"
+                app:frv_isEmptyViewKeepShowHeadOrFooter="true"
+                app:frv_layoutManager="staggeredGrid"
+                app:frv_layoutManagerOrientation="vertical"
+                app:frv_spanCount="2" />
+        </com.hh.oil.widget.RefreshLayoutForRecycler>
+    </FrameLayout>
+
+</LinearLayout>

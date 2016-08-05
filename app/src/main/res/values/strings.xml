@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="img_src_data">
+        <item>http://www.touxiang.cn/uploads/20130608/08-023618_517.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140216/16-075941_383-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140216/16-082440_368-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140216/16-063601_933-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140216/16-073825_938-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140214/14-083217_708-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140214/14-051920_111-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140216/16-021229_869-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140214/14-015425_35-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140213/13-091819_928-lp.jpg</item>
+    </string-array>
+    <string-array name="img_src_data1">
+        <item>http://www.touxiang.cn/uploads/20140209/09-052257_105-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140209/09-072536_121-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140123/23-084621_152.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140127/27-012529_80.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140124/24-080829_485.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140216/16-082440_368-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140216/16-063601_933-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140216/16-073825_938-lp.jpg</item>
+    </string-array>
+    <string-array name="img_src_data2">
+        <item>http://www.touxiang.cn/uploads/20140127/27-031950_390.jpg</item>
+        <item>http://img1.touxiang.cn/uploads/20120917/17-015851_547.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140122/22-085944_962-lp.jpg</item>
+        <item>http://www.touxiang.cn/uploads/20140124/24-071546_997.jpg</item>
+    </string-array>
+
+    <string name="app_name">小油</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="copy">复制</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="success_copy">已经复制到剪切板</string>
+    <string name="net_remind">网络未连接，请稍后再试！</string>
+    <string name="listfooterview_normal">查看更多</string>
+    <string name="listfooterview_ready">松开载入更多</string>
+
+    <!-- guideActivity -->
+    <string name="slide_1_african_story_books">New African Story Books</string>
+    <string name="slide_2_volunteer_professionals">Created by Volunteer Professionals</string>
+    <string name="slide_3_download_and_go">Download and Read on the go</string>
+    <string name="slide_4_different_languages">Available in different languages</string>
+    <string name="slide_1_african_story_books_subtitle">That anyone can freely translate and distribute.</string>
+    <string name="slide_2_volunteer_professionals_subtitle">On a single day, designers, writers and illustrators meet to create cool books.</string>
+    <string name="slide_3_download_and_go_subtitle">On the bus, in a train, wherever you are - the books are there too.</string>
+    <string name="slide_4_different_languages_subtitle">English, Zulu, Afrikaans, Xhosa and more!</string>
+    <string name="view_sample_tut">View Tutorial Example</string>
+    <string name="tutorial_done">开始</string>
+    <string name="skip">跳过</string>
+    <string name="download_per">次下载</string>
+
+</resources>
