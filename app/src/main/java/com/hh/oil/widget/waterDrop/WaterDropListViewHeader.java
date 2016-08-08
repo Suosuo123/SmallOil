@@ -60,7 +60,7 @@ public class WaterDropListViewHeader extends FrameLayout {
 		mContainer = (LinearLayout) LayoutInflater.from(context).inflate(R.layout.waterdroplistview_header, null);
 		mProgressBar = (ProgressWheel) mContainer.findViewById(R.id.waterdroplist_header_progressbar);
 		mWaterDropView = (WaterDropView) mContainer.findViewById(R.id.waterdroplist_waterdrop);
-		mWaterDropView.setIndicatorColor(getResources().getColor(R.color.main_orange));
+		mWaterDropView.setIndicatorColor(getResources().getColor(R.color.main_color));
 		// 初始情况，设置下拉刷新view高度为0
 		LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, 0);
 		addView(mContainer, lp);

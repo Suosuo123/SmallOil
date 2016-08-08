@@ -7,7 +7,9 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <include layout="@layout/toolbar" />
+    <include
+        android:id="@+id/rel_title_bar"
+        layout="@layout/layout_title_bar" />
 
     <FrameLayout
         android:layout_width="match_parent"

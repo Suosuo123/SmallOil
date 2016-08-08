@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drakeet="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="?attr/colorPrimary"
+    android:elevation="10dp">
+
+    <com.hh.oil.widget.uiView.UIImageView
+        android:id="@+id/iv_back"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:padding="13dp"
+        android:src="@drawable/main_back"
+        drakeet:color_pressed="@color/transparent_60_gray"
+        drakeet:shape_type="round" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/text_big_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white" />
+
+    <com.hh.oil.widget.uiView.UIImageView
+        android:id="@+id/iv_right"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:padding="13dp"
+        android:src="@drawable/main_back"
+        android:visibility="gone"
+        drakeet:color_pressed="@color/transparent_60_gray"
+        drakeet:shape_type="round" />
+</RelativeLayout>

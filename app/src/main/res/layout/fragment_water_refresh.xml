@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hh.oil.activities.TestPagerTabActivity" >
+    tools:context="com.hh.oil.activities.TestPagerTabActivity">
 
     <com.hh.oil.widget.waterDrop.WaterDropListView
         android:id="@+id/waterdrop_listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-    </com.hh.oil.widget.waterDrop.WaterDropListView>
+        android:layout_height="match_parent"
+        android:headerDividersEnabled="false" />
 
 </RelativeLayout>

@@ -71,7 +71,7 @@
             android:id="@+id/waterdroplist_header_progressbar"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            wheel:matProg_barColor="@color/main_orange"
+            wheel:matProg_barColor="@color/main_color"
             wheel:matProg_barWidth="2dp"
             wheel:matProg_progressIndeterminate="true"
             android:visibility="gone"

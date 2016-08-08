@@ -5,13 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
-    <include layout="@layout/toolbar" />
+    <include
+        android:id="@+id/rel_title_bar"
+        layout="@layout/layout_title_bar" />
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/tv_empty"
@@ -25,7 +27,7 @@
         <com.hh.oil.widget.RefreshLayoutForRecycler
             android:id="@+id/mSwipeRefreshLayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <com.hh.oil.widget.familiarRecyclerview.FamiliarRecyclerView
                 android:id="@+id/mRecyclerView"

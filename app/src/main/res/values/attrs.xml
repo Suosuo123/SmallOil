@@ -46,7 +46,7 @@
         <attr name="matProg_linearProgress" format="boolean" />
     </declare-styleable>
 
-    
+
     <declare-styleable name="PullHeaderLayout">
         <attr name="phl_header_height" format="dimension" />
         <attr name="phl_header_expand_height" format="dimension" />
@@ -55,17 +55,17 @@
         <attr name="phl_content" format="reference" />
         <attr name="phl_action" format="reference" />
     </declare-styleable>
-    
+
     <declare-styleable name="WaterDropView">
-        <attr name="max_circle_radius" format="dimension"/>
-        <attr name="min_circle_radius" format="dimension"/>
-        <attr name="waterdrop_color" format="color"/>
-        <attr name="topcircle_x" format="dimension"/>
-        <attr name="topcircle_y" format="dimension"/>
-        <attr name="bottomcircle_x" format="dimension"/>
-        <attr name="bottomcircle_y" format="dimension"/>
+        <attr name="max_circle_radius" format="dimension" />
+        <attr name="min_circle_radius" format="dimension" />
+        <attr name="waterdrop_color" format="color" />
+        <attr name="topcircle_x" format="dimension" />
+        <attr name="topcircle_y" format="dimension" />
+        <attr name="bottomcircle_x" format="dimension" />
+        <attr name="bottomcircle_y" format="dimension" />
     </declare-styleable>
-    
+
     <declare-styleable name="MultiStateView">
         <attr name="msv_loadingView" format="reference" />
         <attr name="msv_emptyView" format="reference" />
@@ -77,7 +77,7 @@
             <enum name="loading" value="3" />
         </attr>
     </declare-styleable>
-    
+
     <declare-styleable name="ViewPagerIndicator">
 
         <attr name="vpiCirclePageIndicatorStyle" format="reference" />
@@ -125,8 +125,8 @@
     <bool name="default_circle_indicator_snap">false</bool>
     <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
-    
-    
+
+
     <declare-styleable name="FamiliarRecyclerView">
         <attr name="frv_divider" format="reference|color" />
         <attr name="frv_dividerVertical" format="reference|color" />
@@ -150,5 +150,19 @@
         <attr name="frv_isReverseLayout" format="boolean" />
         <attr name="frv_headerDividersEnabled" format="boolean" />
         <attr name="frv_footerDividersEnabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="UIButton">
+        <attr name="color_pressed" format="color" />
+        <attr name="color_unpressed" format="color" />
+        <attr name="ripple_color" format="color" />
+        <attr name="ripple_alpha" format="integer" />
+        <attr name="ripple_duration" format="integer" />
+        <attr name="alpha_pressed" format="integer" />
+        <attr name="ripple_radius" format="dimension" />
+        <attr name="shape_type" format="enum">
+            <enum name="round" value="0" />
+            <enum name="rectangle" value="1" />
+        </attr>
     </declare-styleable>
 </resources>

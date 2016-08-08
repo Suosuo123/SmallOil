@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="main_orange">#FF8549</color>
-    <color name="main_orange_dark">#e05d34</color>
+    <color name="main_color">#830b7b</color>
+    <color name="main_color_dark">#700561</color>
     
     <color name="black">#00000000</color>
     <color name="background_tab_pressed">#6633B5E5</color>
@@ -35,5 +35,7 @@
     <color name="slide_2">#fb9c25</color>
     <color name="slide_3">#5ab55d</color>
     <color name="slide_4">#ea2d6d</color>
+
+    <color name="transparent_60_gray">#fe1b0002</color>
 
 </resources>

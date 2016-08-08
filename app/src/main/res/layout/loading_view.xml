@@ -23,7 +23,7 @@
             android:id="@+id/progress_wheel"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            wheel:matProg_barColor="@color/main_orange"
+            wheel:matProg_barColor="@color/main_color"
             wheel:matProg_progressIndeterminate="true" />
 
         <TextView

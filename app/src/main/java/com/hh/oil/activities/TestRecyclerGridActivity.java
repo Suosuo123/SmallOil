@@ -60,7 +60,7 @@ public class TestRecyclerGridActivity extends BaseActivity implements SwipeRefre
 		mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 		// head view
 		mRecyclerView.addHeaderView(HeaderAndFooterViewUtil.getHeadView(this, true,
-				getResources().getColor(R.color.main_orange), "Head View 1"));
+				getResources().getColor(R.color.main_color), "Head View 1"));
 
 		// mRecyclerView.addFooterView(mFooterLoadMoreView);
 
